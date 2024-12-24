@@ -73,4 +73,4 @@ Facade
 Observer
   ![Captura de tela 2024-12-23 215552](https://github.com/user-attachments/assets/1d5b4930-db42-4448-a0ae-cf50d28ac1b4)
 
-### A documentação dos código ficaram nos arquivos de códigos!
+### A documentação dos códigos ficaram nos arquivos de códigos!
