@@ -1,16 +1,16 @@
 # PadroesDeProjeto
 
 ##### Builder
-	Introdução
+	Introdução:
 		Design criacional
 		Construir objetos complexos passo a passo
 		Diferentes tipos e representações  de um objeto, usando o mesmo código de construção
 
-	Problema
+	Problema:
 		Imagine ao criar um novo objeto que requer vários campos de parâmetros ou objetos aninhados passo a passo para que sejam inicializados pelo construtor, o código poderia se estender demais.
 		Uma solução não muito plausivel seria possuir uma classe base construtora gigante que envolveria todos os casos possíveis, não necessitando de outras subclasses. No entanto criaria parâmetros que muitas vezes não serão utilizados, deixando o construtor de forma incorreta.
 
-	Solution
+	Solution:
 		Então é sugerido que extraia o código de construção do objeto de sua classe para objetos separados chamados construtores.
 
 		A construção do objeto é realizado passo a passo, chamando o processo de construção apenas uma única vez com as configurações particulares do objeto, executando apenas as implementações requeridas.
@@ -29,22 +29,22 @@
 			Com a criação de novas múltiplas classes, a complexidade do código geral aumentará
 
 ##### Facade
-	Introdução
+	Introdução:
 		É um padrão estrutural
 		Fornece uma interface simplificada para conjuntos complexos de classes, como bibliotecas, frameworks e outros.
 
-	Problema
+	Problema:
 		Imagine que você queira trabalhar com objetos de bibliotecas ou frameworks sofisticados, é sempre necessário inicializar e configurar o ambiente para uso.
 		Como depende dos detalhes de implementação de terceiros, ficaria complicado comprrender e corrigir a lógica de negócios das suas classes
 
-	Solução
+	Solução:
 		Facade é uma classe que fornece uma simples interface de um subsistema complexo que contém partes móveis. Pode ter uma funcionalidade um pouco limitade se comparado a trabalhar diretamente com o subsistema, no entanto os recursos necessários geralmente são disponíveis.
 		É muito útil quando for utilizar apenas uma parte de funcionalidade de uma biblioteca complexa.
 
 
 ##### Observer
 
-	Introdução
+	Introdução:
 		É um padrão comprotamental
 		Define um mecanismo, onde notifica múltiplos objetos sobre qualquer evento que aconteça ao objeto que estão observando.
 
@@ -54,7 +54,7 @@
 		Uma solução não muito indicada, seria enviar um e-mail a todos os clientes notificando que o novo produto já está dispoível na loja, no entanto alguns cliente não estão interessado neste produto novo e neste caso serão apenas incomodades.
 		No fim, se encontra em uma situação conflitante, cada cliente deverá ir a loja frequentemente ou a loja enviará notificações a todos o clientes independentemente.
 
-	Solução
+	Solução:
 		O objeto que possui uma mudança de estado interessante geralmente é chamado de assunto, mas como ele vai notificar outro objetos com sua mudança, então será chamado de publicador. Todos os outros objetos que querem buscar alterações são chamados de assinantes.
 		O padrão recomenda que adicione um mecanismo de assinatura à classe publicador, para que possam assinar ou cancelar a assinatura individualmente por cada outro objeto.
 		Agora sempre que um determinado evento ocorrer ao publicador, notificará por métodos os objetos assinantes.
@@ -73,3 +73,4 @@ Facade
 Observer
   ![Captura de tela 2024-12-23 215552](https://github.com/user-attachments/assets/1d5b4930-db42-4448-a0ae-cf50d28ac1b4)
 
+### A documentação dos código ficaram nos arquivos de códigos!
