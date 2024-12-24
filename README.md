@@ -75,4 +75,4 @@ Observer
 
 ### A documentação dos códigos ficaram nos arquivos de códigos!
 
-# Todo este conteúdo neste arquivo foi pesquisado e traduzido utilizando o site https://refactoring.guru/ como fonte de informação!
+# Todo o conteúdo neste arquivo foi pesquisado e traduzido utilizando o site https://refactoring.guru/ como fonte de informação!
