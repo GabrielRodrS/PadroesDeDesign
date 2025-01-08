@@ -1,4 +1,4 @@
-# PadroesDeDesign
+# PadroesDeProjeto
 
 ##### Builder
 	Introdução:
